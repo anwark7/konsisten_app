@@ -19,31 +19,28 @@ samples, guidance on mobile development, and a full API reference.
 * [Flutter](https://flutter.dev/docs/get-started/install/windows)
 * [JDK 8](https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html)
 * Flutter and Dart extension in VScode
-
 ## Setup
 You need to install all of requirement
-
-    Setup Fluter
-        1. Download flutter from https://flutter.dev/docs/get-started/install/windows
-        2. Extract zip to `C:\` or `C:\Users\<your-user-name>\Documents`
-        3. Update path for flutter
-            * Open `Edit Environment for variables for your account`
-            * Copy path `Flutter/bin`
-            * Under User variables > `Path > New > paste path flutter/bin`
-        4. To check if flutter is installed
-            * Open cmd
-            * Go to flutter path
-            * Type `Flutter Doctor`
-
-    Setup JDK 8
-        1. Download JDK 8 from https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html
-        2. Install JDK 8
-        3. Update path for JDK 8
-        4. Check if command `Flutter Doctor` has no issue left
-
 1. Clone the repository
 2. Open project in VSCode
 3. Make sure you have installed Flutter and Dart extension. 
     * Install Flutter extension
     * Install Dart extension
 4. Happy coding:)
+### Setup Fluter
+1. Download flutter from https://flutter.dev/docs/get-started/install/windows
+2. Extract zip to `C:\` or `C:\Users\<your-user-name>\Documents`
+3. Update path for flutter
+    * Open `Edit Environment for variables for your account`
+    * Copy path `Flutter/bin`
+    * Under User variables > `Path > New > paste path flutter/bin`
+4. To check if flutter is installed
+    * Open cmd
+    * Go to flutter path
+    * Type `Flutter Doctor`
+
+### Setup JDK 8
+1. Download JDK 8 from https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html
+2. Install JDK 8
+3. Update path for JDK 8
+4. Check if command `Flutter Doctor` has no issue left
